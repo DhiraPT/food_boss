@@ -5,7 +5,8 @@ import 'package:food_boss/providers/firestor_provider.dart';
 import 'package:intl/intl.dart';
 
 class AddItemForm extends ConsumerStatefulWidget {
-  const AddItemForm({Key? key}) : super(key: key);
+  final String name;
+  const AddItemForm({Key? key, required this.name}) : super(key: key);
 
   @override
   ConsumerState<AddItemForm> createState() => _AddItemFormState();
@@ -19,7 +20,7 @@ class _AddItemFormState extends ConsumerState<AddItemForm> {
   @override
   void initState() {
     super.initState();
-    _textEditingController = TextEditingController();
+    _textEditingController = TextEditingController(text: widget.name);
   }
 
   @override

@@ -11,6 +11,7 @@ class AddItemScreen extends StatefulWidget {
 class _AddItemScreenState extends State<AddItemScreen> {
   @override
   Widget build(BuildContext context) {
+    final name = ModalRoute.of(context)!.settings.arguments as String;
     return SafeArea(
       child: GestureDetector(
         onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
@@ -19,8 +20,8 @@ class _AddItemScreenState extends State<AddItemScreen> {
             leading: const BackButton(),
             title: const Text('Add Item'),
           ),
-          body: const SingleChildScrollView(
-            child: AddItemForm()
+          body: SingleChildScrollView(
+            child: AddItemForm(name: name)
           )
         )
       )
