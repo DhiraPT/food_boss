@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017887019101",
+    "project_id": "food-boss-code-red",
+    "storage_bucket": "food-boss-code-red.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017887019101:android:9608e0f3eb7f0fbf6d7db4",
+        "android_client_info": {
+          "package_name": "com.example.food_boss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017887019101-r625ss0fm818kmh1cj9ca20hjkoqjk4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM-3EqfHqVWMMtexPBfhKRvSHivftNdPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017887019101-r625ss0fm818kmh1cj9ca20hjkoqjk4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
