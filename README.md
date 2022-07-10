@@ -13,6 +13,18 @@ FoodBoss is a seamless AI-powered Expiry Date Tracker for the consumer, in colla
 - Quick detection of expiry dates with AI, over time-consuming manual key-in of expiry dates
 - Easy to use app allows for easy adoption for the public and supermarkets
 
+### Process of use:
+1. Barcode of item bought is scanned by cashier or E-payment system
+2. Customer opens their FoodBoss app and shows their Account QR
+3. Supermarket iPad scans
+-- Account QR of customer (with FoodBoss app)
+-- Barcode of each item (with Supermarket’s barcode reader)
+-- Expiry date of each item (with Text Reader AI of FoodBoss app)
+4. After Payment, information of each item added to User’s FoodBoss app are:
+-- Item Name
+-- Expiry date
+
+
 # How does your hack answer the problem statement?
 - Food waste is caused by people overbuying and not using up food before expiry
 ### Features of this app which address this problem:
